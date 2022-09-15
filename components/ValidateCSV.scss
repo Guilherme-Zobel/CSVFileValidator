@@ -1,0 +1,14 @@
+.validate-csv {
+  position: relative;
+  display: flex;
+
+  .red {
+    color: red;
+    padding-top: 6px;
+    font-size: 12px
+  }
+
+  .download {
+    text-decoration: none;
+  }
+}

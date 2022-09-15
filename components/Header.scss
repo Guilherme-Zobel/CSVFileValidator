@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  padding: 12px 0;
+  border-bottom: 1px solid black;
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+
+      li {
+        a {
+          color: black
+        }
+        &:not(:last-child) {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}
